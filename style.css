@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  color: white;
+  background-image: url("/Images/cloud_bg.gif");
+  ;
+  background-size: cover;
+  text-align: center;
+}
+
+.navbar {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: hotpink;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: pink;
+}

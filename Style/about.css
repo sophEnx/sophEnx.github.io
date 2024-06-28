@@ -1,0 +1,128 @@
+body {
+  background-image: url("/Images/monet.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-family: "Times New Romans", Times, serif;
+}
+
+p {
+  font-size: 18px;
+  text-indent: 50px;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide-wrapper {
+  width: calc(728px * 4);
+  animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+}
+
+.navbar {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  color: hotpink;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: pink;
+}
+
+.sunrise {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 400px;
+  width: 600px;
+  z-index: 5;
+}
+
+.title {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding: 5px;
+}
+
+.date {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  padding: 5px;
+}
+
+.sunrise img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+
+
+.footer {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.footer-content {
+  margin-top: 10px;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.social-icons img {
+  border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+body {
+  background-color: pink;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  margin-left: auto;
+}
+
+.giphy {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  /* For the "via GIPHY" link */
+}
+
+.navbar {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: hotpink;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: pink;
+}

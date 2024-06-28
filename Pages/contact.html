@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="/Style/contact.css">
+</head>
+
+<body>
+  <!--nav bar-->
+  <div class="navbar">
+    <a href="/Pages/about.html">About Me</a>
+    <a href="/Pages/resume.html">My Resume</a>
+    <a href="/Pages/portfolio.html">Portfolio</a>
+  </div>
+  <div class="contact-header">
+    <h1>Contact Me</h1>
+    <div class="social">
+      <!--linkedin-->
+      <button>
+        <a href="https://www.linkedin.com/in/sophia-ye-6179202b4/" target="_blank">
+          <img src="/Images/linkedin.png" alt="LinkedIn" height="30" width="30">
+        </a>
+      </button>
+      <!--gmail-->
+      <button>
+        <a href="mailto: sophia.ye68@gmail.com" target="_blank">
+          <img src="/Images/gmail.png" alt="gmail" height="30" width="30">
+        </a>
+      </button>
+      <!--phone-->
+      <button>
+        <a href="tel://407-837-5515" target="_blank">
+          <img src="/Images/phone.png" alt="phone number" height="30" width="30">
+        </a>
+    </div>
+  </div>
+  <fieldset>
+    <legend>Please fill out the following</legend>
+    <!--First and last name form-->
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" required><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" required><br><br>
+      <br>
+      <!--Email form-->
+      <label>
+        Input your E-mail:
+        <input type="email" name="email" required>
+      </label>
+      <br>
+      <!--Purpose form-->
+      <p>Your purpose:</p>
+      <input type="radio" id="network" name="purpose" value="Network">
+      <label for="network">Network</label><br>
+      <input type="radio" id="collab" name="purpose" value="Collab">
+      <label for="collab">Collab</label><br>
+      <input type="radio" id="other_inquiries" name="purpose" value="Other Inquiries">
+      <label for="other_inquiries">Other Inquiries</label>
+      <br>
+      <br>
+      <!--Message form-->
+      <label for="comments">
+        Message (<em>Max 200 characters</em>):
+      </label>
+      <br>
+      <textarea name="comments" rows="4" cols="55" maxlength="200" id="comments">
+      </textarea>
+      <br>
+      <!--Submit button-->
+      <input type="submit"> <input type="reset" value="Reset">
+    </form>
+  </fieldset>
+  <!--giphy-->
+  <br>
+  <iframe src="https://giphy.com/embed/TcA5JLbjPmC4g" width="480" height="355" style="" frameBorder="0"
+    class="giphy-embed giphy" allowFullScreen></iframe>
+  <p class="giphy"><a href="https://giphy.com/gifs/thanksgiving-snoopy-charlie-brown-TcA5JLbjPmC4g">via
+      GIPHY</a></p>
+  <!--takes user back to home-->
+  <br>
+  <br>
+  <button style="float: left;">
+    <a href="../index.html" rel="homepage">
+      <img src="/Images/home.png" alt="Home" height="30" width="30">
+    </a>
+  </button>
+</body>
+
+</html>
